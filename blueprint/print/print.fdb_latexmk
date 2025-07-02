@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1751474175.33214 "print.tex" "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.pdf" "print" 1751474176.24479 0
-  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.aux" 1751474175.98926 759 3690b4f2fa911ee477856b7efb0eb643 "pdflatex"
-  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out" 1751474175.98962 461 e982552cd7e32447017038df3b7045f3 "pdflatex"
+["pdflatex"] 1751474369.20264 "print.tex" "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.pdf" "print" 1751474370.11307 0
+  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.aux" 1751474369.85768 939 3482cbc1fb64f6ea49a5b35b03c0bc40 "pdflatex"
+  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out" 1751474369.85805 615 88f9a4f64598d5b5e5f8cf04d472bff4 "pdflatex"
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -84,9 +84,10 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1719595301 10850172 2aa288bbb1fc50ebf859e45fea4787e1 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "chapters/chapter1.tex" 1751474161.3991 89 ad46b84f7ea7b359d2285d2a5e3ccb0b ""
+  "chapters/chapter1.tex" 1751474342.40392 122 b2982f6c6a6dfea2bdcab4cf6e6a294e ""
   "chapters/chapter1/sheet1.tex" 1751474005.79517 983 0f76346c2ff6e45aa871e8ed3cf897d7 ""
   "chapters/chapter1/sheet2.tex" 1751474140.37903 314 839743463e8a053a20d52e65c83221da ""
+  "chapters/chapter1/sheet3.tex" 1751474354.49736 299 d84c25f3f5d926691e26bb106e981bc2 ""
   "content.tex" 1751470634.19442 389 0c13d4971052d46c5ab0036358cbad30 ""
   "macros/common.tex" 1751472807.30909 820 60fafcc3aa944a5e60030581a943ef6b ""
   "macros/print.tex" 1751466638.53376 1101 87627b2ec24fef68edc71c13f43f7bab ""
