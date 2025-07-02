@@ -216,6 +216,11 @@ INPUT ./chapters/chapter1/sheet4.tex
 INPUT ./chapters/chapter1/sheet4.tex
 INPUT ./chapters/chapter1/sheet4.tex
 INPUT chapters/chapter1/sheet4.tex
+INPUT ./chapters/chapter1/sheet5.tex
+INPUT ./chapters/chapter1/sheet5.tex
+INPUT ./chapters/chapter1/sheet5.tex
+INPUT ./chapters/chapter1/sheet5.tex
+INPUT chapters/chapter1/sheet5.tex
 INPUT /Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.aux
 INPUT /Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out
 INPUT /Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out

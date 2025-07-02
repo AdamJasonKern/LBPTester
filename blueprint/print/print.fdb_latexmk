@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1751475042.16382 "print.tex" "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.pdf" "print" 1751475043.09621 0
-  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.aux" 1751475042.84051 1110 09370adc2723b965b94d2eaed3ac0392 "pdflatex"
-  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out" 1751475042.84088 739 eecad6082adcab4fd3e23337a2d78d8d "pdflatex"
+["pdflatex"] 1751475654.77789 "print.tex" "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.pdf" "print" 1751475655.69864 0
+  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.aux" 1751475655.44384 1354 585901aa24d6365b4a4b750de34b409d "pdflatex"
+  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out" 1751475655.44421 888 88737d91482fff69f87322a095fb5fcd "pdflatex"
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -84,11 +84,12 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1719595301 10850172 2aa288bbb1fc50ebf859e45fea4787e1 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "chapters/chapter1.tex" 1751474666.74308 155 9d4145d102f1ffee855e9be072573f39 ""
-  "chapters/chapter1/sheet1.tex" 1751474005.79517 983 0f76346c2ff6e45aa871e8ed3cf897d7 ""
+  "chapters/chapter1.tex" 1751475217.49164 188 d0af99a8670bab5f052013055cad8511 ""
+  "chapters/chapter1/sheet1.tex" 1751475476.26948 983 0f76346c2ff6e45aa871e8ed3cf897d7 ""
   "chapters/chapter1/sheet2.tex" 1751474602.64066 320 564fcfb68c0cda859eab3572f3868c31 ""
   "chapters/chapter1/sheet3.tex" 1751474584.4918 305 8c1ec86c4507cef53782e3fd5dafbede ""
-  "chapters/chapter1/sheet4.tex" 1751475029.5336 596 074ec77e71d7608614ef5f1fb06039ee ""
+  "chapters/chapter1/sheet4.tex" 1751475646.17218 864 30a03ee120fa54039976754f9045f7e0 ""
+  "chapters/chapter1/sheet5.tex" 1751475647.29583 333 a12f822c50c9b570a6bd2c81ffc9c991 ""
   "content.tex" 1751470634.19442 389 0c13d4971052d46c5ab0036358cbad30 ""
   "macros/common.tex" 1751472807.30909 820 60fafcc3aa944a5e60030581a943ef6b ""
   "macros/print.tex" 1751466638.53376 1101 87627b2ec24fef68edc71c13f43f7bab ""

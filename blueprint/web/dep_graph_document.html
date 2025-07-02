@@ -201,6 +201,66 @@
 
 
     
+    <div class="dep-modal-container" id="theorem : subspace_contains_zero_modal">
+      <div class="dep-modal-content">
+          <button class="dep-closebtn">
+<svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
+</button>
+        
+  <div class="thm" id="theorem : subspace_contains_zero" style="display: none">
+    <div class="thm_thmheading">
+      <span class="theorem_thmcaption">
+      Theorem
+      </span>
+      <span class="theorem_thmlabel">6</span></div>
+    <div class="thm_thmcontent"><p>   This is a proof that any subspace contains the zero vector:\((0 : V) \in W\) </p>
+</div>
+
+    <a class="latex_link" href="sect0001.html#theorem : subspace_contains_zero">LaTeX</a>
+    
+    
+  <a class="lean_link lean_decl" href="https://AdamJasonKern.github.io/LBPTester/docs/find/#doc/LinearAlgebraGame.subspace_contains_zero">Lean</a>
+    
+    
+  
+    
+  </div>
+    
+      </div>
+    </div>
+
+
+    
+    <div class="dep-modal-container" id="theorem : subspace_neg_modal">
+      <div class="dep-modal-content">
+          <button class="dep-closebtn">
+<svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
+</button>
+        
+  <div class="thm" id="theorem : subspace_neg" style="display: none">
+    <div class="thm_thmheading">
+      <span class="theorem_thmcaption">
+      Theorem
+      </span>
+      <span class="theorem_thmlabel">7</span></div>
+    <div class="thm_thmcontent"><p>   This is a proof that if a subspace contains a vector ‘x‘, it also contains ‘-x‘:\( \forall (x : V), x \in W \rightarrow (-x) \in W\) </p>
+</div>
+
+    <a class="latex_link" href="sect0001.html#theorem : subspace_neg">LaTeX</a>
+    
+    
+  <a class="lean_link lean_decl" href="https://AdamJasonKern.github.io/LBPTester/docs/find/#doc/LinearAlgebraGame.subspace_neg">Lean</a>
+    
+    
+  
+    
+  </div>
+    
+      </div>
+    </div>
+
+
+    
     <div class="dep-modal-container" id="theorem : zero_smul_v_modal">
       <div class="dep-modal-content">
           <button class="dep-closebtn">
@@ -247,7 +307,7 @@ graphContainer.graphviz({useWorker: true})
     .width(width)
     .height(height)
     .fit(true)
-    .renderDot(`strict digraph "" {	graph [bgcolor=transparent];	node [label="\N",		penwidth=1.8	];	edge [arrowhead=vee];	"theorem : zero_smul_v"	[color=green,		label=" zero_smul_v",		shape=ellipse];	"theorem : neg_one_smul_v"	[color=green,		label=" neg_one_smul_v",		shape=ellipse];	"theorem : smul_zero_v"	[color=green,		label=" smul_zero_v",		shape=ellipse];	"definition : Subspace"	[color=green,		fillcolor="#B0ECA3",		label=" Subspace",		shape=box,		style=filled];	"definition : VectorSpace"	[color=green,		fillcolor="#B0ECA3",		label=" VectorSpace",		shape=box,		style=filled];	"definition : VectorSpace" -> "theorem : zero_smul_v"	[style=dashed];	"definition : VectorSpace" -> "theorem : neg_one_smul_v"	[style=dashed];	"definition : VectorSpace" -> "theorem : smul_zero_v"	[style=dashed];}`)
+    .renderDot(`strict digraph "" {	graph [bgcolor=transparent];	node [label="\N",		penwidth=1.8	];	edge [arrowhead=vee];	"theorem : zero_smul_v"	[color=green,		label=" zero_smul_v",		shape=ellipse];	"theorem : neg_one_smul_v"	[color=green,		label=" neg_one_smul_v",		shape=ellipse];	"theorem : smul_zero_v"	[color=green,		label=" smul_zero_v",		shape=ellipse];	"definition : Subspace"	[color=green,		fillcolor="#B0ECA3",		label=" Subspace",		shape=box,		style=filled];	"theorem : subspace_contains_zero"	[color=green,		label=" subspace_contains_zero",		shape=ellipse];	"definition : Subspace" -> "theorem : subspace_contains_zero"	[style=dashed];	"theorem : subspace_neg"	[color=green,		label=" subspace_neg",		shape=ellipse];	"definition : Subspace" -> "theorem : subspace_neg"	[style=dashed];	"definition : VectorSpace"	[color=green,		fillcolor="#B0ECA3",		label=" VectorSpace",		shape=box,		style=filled];	"definition : VectorSpace" -> "theorem : zero_smul_v"	[style=dashed];	"definition : VectorSpace" -> "theorem : neg_one_smul_v"	[style=dashed];	"definition : VectorSpace" -> "theorem : smul_zero_v"	[style=dashed];	"definition : VectorSpace" -> "theorem : subspace_contains_zero"	[style=dashed];	"definition : VectorSpace" -> "theorem : subspace_neg"	[style=dashed];}`)
     .on("end", interactive);
 
 latexLabelEscaper = function(label) {
