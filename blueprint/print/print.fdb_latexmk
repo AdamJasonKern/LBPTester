@@ -1,12 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1751468091.76271 "print.tex" "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.pdf" "print" 1751468092.67018 0
-  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.aux" 1751468092.40685 128 852fc3e86949e4a73cd552c13992dc37 "pdflatex"
-  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out" 1751468092.18691 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["pdflatex"] 1751472818.79933 "print.tex" "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.pdf" "print" 1751472819.72939 0
+  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.aux" 1751472819.46242 520 b1e586cdf7d7fc131c441873df6c3fed "pdflatex"
+  "/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.out" 1751472819.46276 277 749ade8b747c87af47d98c54c53c0528 "pdflatex"
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -82,8 +84,10 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1719595301 10850172 2aa288bbb1fc50ebf859e45fea4787e1 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "content.tex" 1751466638.53016 363 d68ec385ab7b5b65ef8d18eff416b83d ""
-  "macros/common.tex" 1751466638.53282 820 60fafcc3aa944a5e60030581a943ef6b ""
+  "chapters/chapter1.tex" 1751469426.34081 56 7bdb4af319c42510485fedb3c2ec3887 ""
+  "chapters/chapter1/sheet1.tex" 1751471393.94179 720 8dc33f29670f369c3d084a442b2bbb5a ""
+  "content.tex" 1751470634.19442 389 0c13d4971052d46c5ab0036358cbad30 ""
+  "macros/common.tex" 1751472807.30909 820 60fafcc3aa944a5e60030581a943ef6b ""
   "macros/print.tex" 1751466638.53376 1101 87627b2ec24fef68edc71c13f43f7bab ""
   "print.tex" 1751466638.53716 1104 bb0aba7f6efa1ef7a6754e96ac4de276 ""
   (generated)
