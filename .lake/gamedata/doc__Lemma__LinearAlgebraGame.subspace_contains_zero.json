@@ -1,0 +1,7 @@
+{"type": "Lemma",
+ "statement":
+ " {K V} (fk : Field K) (acg : AddCommGroup V) (vs : LinearAlgebraGame.VectorSpace K V) {W}\n  (hW : LinearAlgebraGame.isSubspace W) : 0 ∈ W",
+ "name": "LinearAlgebraGame.subspace_contains_zero",
+ "displayName": "subspace_contains_zero",
+ "content": "This is a proof that any subspace contains the zero vector.",
+ "category": "Vector Spaces"}

@@ -1,0 +1,40 @@
+{"worlds":
+ {"nodes":
+  {"VectorSpaceWorld":
+   {"title": "", "name": "VectorSpaceWorld", "introduction": "", "image": ""},
+   "TutorialWorld":
+   {"title": "Tutorial World",
+    "name": "TutorialWorld",
+    "introduction":
+    "Welcome to the tutorial world! This world is designed to indroduce you to Lean 4.\n\nIn this world, we start with proving 'x=x', and then move on to solve basic logic problems and\nsimple theorems about the natural numbers.\n\nIf you already know how to use Lean 4, you can skip this world, although we recommend playing through it.\n\nClick start to begin solving your first level!",
+    "image": ""},
+   "LinearIndependenceSpanWorld":
+   {"title": "Linear Independence and Span World",
+    "name": "LinearIndependenceSpanWorld",
+    "introduction":
+    "Welcome to Linear Independence and Span World! This world introduces the ideas of linear\nindependence/dependence and the span of a set of vectors. You will prove theorems, for example that\nany subset of a linearly independent set of vectors is still linearly independent.",
+    "image": ""}},
+  "edges":
+  [["TutorialWorld", "VectorSpaceWorld"],
+   ["LinearIndependenceSpanWorld", "VectorSpaceWorld"]]},
+ "worldSize":
+ {"VectorSpaceWorld": 5, "TutorialWorld": 10, "LinearIndependenceSpanWorld": 1},
+ "title": "Linear Algebra Game",
+ "tile":
+ {"worlds": 3,
+  "title": "Linear Algebra Game",
+  "short": "Game Template",
+  "prerequisites": [],
+  "long":
+  "You should use this game as a template for your own game and add your own levels.",
+  "levels": 16,
+  "languages": ["English"],
+  "image": ""},
+ "name": "MyGame",
+ "introduction":
+ "# Welcome to the Linear Algebra Game!\n\nThis game works as a learning tool for linear algebra,\nbased on the textbook \"Linear Algebra Done Right\" by Sheldon Axler. It also serves as an\nintroduction to Lean 4, a proof assistant that provides an environment to encode proofs formally.\n\nProofs in Lean can are written in precise syntax, using tactics and theorems, and can be algorithmically\nchecked for correctness by a computer.\n\nThis game covers many areas of linear algebra, including vector spaces, linear independence, bases,\nlinear mappings, and isomorphisms.\n\nTo start, click on \"Tutorial World\"",
+ "info":
+ "*Game version: 1.0*\n\n## Progress saving\n\nThe game stores your progress in your local browser storage.\nIf you delete it, your progress will be lost!\n\nWarning: In most browsers, deleting cookies will also clear the local storage\n(or \"local site data\"). Make sure to download your game progress first!\n\n## Credits\n\n* **Team:** Huiyu Chen, Adam Kern, Justin Morrill, and Letian Yang\n* **Project Manager:** Daniel Zhou\n* **Project Leader:** Professor Colleen Robles\n* **2023 Lean 3 Version:** Yannan Bai, Annapurna Bhattacharya, Chun-Hsien Hsu, Stavan Jain, Kurt Ma, Ricardo Prado Cunha, Anoushka Sinha\n* **Game Engine:** Alexander Bentkamp, Jon Eugster, Patrick Massot\n* **Inspiration:** Kevin Buzzard's Natural Number Game (https://adam.math.hhu.de/#/g/leanprover-community/nng4)",
+ "image": "",
+ "conclusion": "",
+ "authors": []}

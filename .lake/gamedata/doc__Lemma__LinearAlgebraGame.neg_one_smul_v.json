@@ -1,0 +1,8 @@
+{"type": "Lemma",
+ "statement":
+ " {K V} (fk : Field K) (acg : AddCommGroup V) (vs : LinearAlgebraGame.VectorSpace K V) (v : V) : -1 • v = -v",
+ "name": "LinearAlgebraGame.neg_one_smul_v",
+ "displayName": "neg_one_smul_v",
+ "content":
+ "This is a proof that `-1 • v = -v`, that multiplying by the -1 scalar gives the inverse vector.",
+ "category": "Vector Spaces"}

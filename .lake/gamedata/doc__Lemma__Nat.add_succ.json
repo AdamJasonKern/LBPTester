@@ -1,0 +1,7 @@
+{"type": "Lemma",
+ "statement": " (n m : ℕ) : n + Nat.succ m = Nat.succ (n + m)",
+ "name": "Nat.add_succ",
+ "displayName": "add_succ",
+ "content":
+ "'add_succ' is a proof that `n + Nat.succ m = Nat.succ (n + m)`.\n\nThe reason for the name is that the theorem proves that adding the successor of a number is equal to\nthe successor of addind that number.",
+ "category": "ℕ"}

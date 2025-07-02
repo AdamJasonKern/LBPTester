@@ -1,0 +1,8 @@
+{"type": "Lemma",
+ "statement":
+ " {K V} (fk : Field K) (acg : AddCommGroup V) (vs : LinearAlgebraGame.VectorSpace K V) {W}\n  (hW : LinearAlgebraGame.isSubspace W) (x : V) (a✝ : x ∈ W) : -x ∈ W",
+ "name": "LinearAlgebraGame.subspace_neg",
+ "displayName": "subspace_neg",
+ "content":
+ "This is a proof that if a subspace contains a vector `x`, it also contains `-x`.",
+ "category": "Vector Spaces"}

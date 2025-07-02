@@ -1,0 +1,7 @@
+{"type": "Lemma",
+ "statement": " {α} {r} [IsSymm α r] {a b} (a✝ : r a b) : r b a",
+ "name": "symm",
+ "displayName": "symm",
+ "content":
+ "This is just so Lean doesn't get mad at me for having `symm` as a tactic when it is considered a theorem.",
+ "category": "Lean"}
