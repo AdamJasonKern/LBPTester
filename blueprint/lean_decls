@@ -1,1 +1,3 @@
 LinearAlgebraGame.VectorSpace
+LinearAlgebraGame.zero_smul_v
+LinearAlgebraGame.smul_zero_v
