@@ -63,6 +63,44 @@
 <div id="statements">
 
     
+    <div class="dep-modal-container" id="definition : Subspace_modal">
+      <div class="dep-modal-content">
+          <button class="dep-closebtn">
+<svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
+</button>
+        
+  <div class="thm" id="definition : Subspace" style="display: none">
+    <div class="thm_thmheading">
+      <span class="definition_thmcaption">
+      Definition
+      </span>
+      <span class="definition_thmlabel">5</span></div>
+    <div class="thm_thmcontent"><p>  A <em>subspace</em> is a subset of a vector space that acts similarly to a vector space itself. It has three main properties: </p>
+<ul class="itemize">
+  <li><p><b class="bfseries">Nonempty</b>: W.Nonempty </p>
+</li>
+  <li><p><b class="bfseries">Closure_Under_Addition</b>: \(\forall (x y : V), x ∈ W \rightarrow y \in W \rightarrow x + y \in W\) </p>
+</li>
+  <li><p><b class="bfseries">Closure_Under_Scalar_Multiplication</b>: \(\forall (a : K) (x : V), x \in W \rightarrow a \bullet x \in W\) </p>
+</li>
+</ul>
+</div>
+
+    <a class="latex_link" href="sect0001.html#definition : Subspace">LaTeX</a>
+    
+    
+  <a class="lean_link lean_decl" href="https://AdamJasonKern.github.io/LBPTester/docs/find/#doc/LinearAlgebraGame.isSubspace">Lean</a>
+    
+    
+  
+    
+  </div>
+    
+      </div>
+    </div>
+
+
+    
     <div class="dep-modal-container" id="definition : VectorSpace_modal">
       <div class="dep-modal-content">
           <button class="dep-closebtn">
@@ -115,7 +153,7 @@
       Theorem
       </span>
       <span class="theorem_thmlabel">4</span></div>
-    <div class="thm_thmcontent"><p>   In any vector space V over K, multiplying a vector by -1 gives its additive inverse: (v : V) : (-1 : K) • v = -v </p>
+    <div class="thm_thmcontent"><p>   In any vector space V over K, multiplying a vector by -1 gives its additive inverse: \((v : V) : (-1 : K) \bullet v = -v\) </p>
 </div>
 
     <a class="latex_link" href="sect0001.html#theorem : neg_one_smul_v">LaTeX</a>
@@ -145,7 +183,7 @@
       Theorem
       </span>
       <span class="theorem_thmlabel">3</span></div>
-    <div class="thm_thmcontent"><p>   In any vector space V over K, any scalar a multiplied by the zero vector gives the zero vector: (a : K) : a • (0 : V) = (0 : V) </p>
+    <div class="thm_thmcontent"><p>   In any vector space V over K, any scalar a multiplied by the zero vector gives the zero vector:\( (a : K) : a \bullet (0 : V) = (0 : V)\) </p>
 </div>
 
     <a class="latex_link" href="sect0001.html#theorem : smul_zero_v">LaTeX</a>
@@ -209,7 +247,7 @@ graphContainer.graphviz({useWorker: true})
     .width(width)
     .height(height)
     .fit(true)
-    .renderDot(`strict digraph "" {	graph [bgcolor=transparent];	node [label="\N",		penwidth=1.8	];	edge [arrowhead=vee];	"definition : VectorSpace"	[color=green,		fillcolor="#B0ECA3",		label=" VectorSpace",		shape=box,		style=filled];	"theorem : zero_smul_v"	[color=green,		label=" zero_smul_v",		shape=ellipse];	"definition : VectorSpace" -> "theorem : zero_smul_v"	[style=dashed];	"theorem : smul_zero_v"	[color=green,		label=" smul_zero_v",		shape=ellipse];	"definition : VectorSpace" -> "theorem : smul_zero_v"	[style=dashed];	"theorem : neg_one_smul_v"	[color=green,		label=" neg_one_smul_v",		shape=ellipse];	"definition : VectorSpace" -> "theorem : neg_one_smul_v"	[style=dashed];}`)
+    .renderDot(`strict digraph "" {	graph [bgcolor=transparent];	node [label="\N",		penwidth=1.8	];	edge [arrowhead=vee];	"theorem : zero_smul_v"	[color=green,		label=" zero_smul_v",		shape=ellipse];	"theorem : neg_one_smul_v"	[color=green,		label=" neg_one_smul_v",		shape=ellipse];	"theorem : smul_zero_v"	[color=green,		label=" smul_zero_v",		shape=ellipse];	"definition : Subspace"	[color=green,		fillcolor="#B0ECA3",		label=" Subspace",		shape=box,		style=filled];	"definition : VectorSpace"	[color=green,		fillcolor="#B0ECA3",		label=" VectorSpace",		shape=box,		style=filled];	"definition : VectorSpace" -> "theorem : zero_smul_v"	[style=dashed];	"definition : VectorSpace" -> "theorem : neg_one_smul_v"	[style=dashed];	"definition : VectorSpace" -> "theorem : smul_zero_v"	[style=dashed];}`)
     .on("end", interactive);
 
 latexLabelEscaper = function(label) {

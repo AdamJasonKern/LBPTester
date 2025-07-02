@@ -2,3 +2,4 @@ LinearAlgebraGame.VectorSpace
 LinearAlgebraGame.zero_smul_v
 LinearAlgebraGame.smul_zero_v
 LinearAlgebraGame.neg_one_smul_v
+LinearAlgebraGame.isSubspace

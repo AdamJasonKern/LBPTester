@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.28)  2 JUL 2025 12:39
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.28)  2 JUL 2025 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,9 +718,10 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 10.
 ) (./chapters/chapter1/sheet2.tex)
-(./chapters/chapter1/sheet3.tex))) [1
+(./chapters/chapter1/sheet3.tex) (./chapters/chapter1/sheet4.tex))) [1
 
 ]
+[2]
 (/Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/blueprint/print/print.a
 ux)
  ***********
@@ -728,16 +729,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `print.out' has not changed.
-(rerunfilecheck)             Checksum: 88F9A4F64598D5B5E5F8CF04D472BFF4;615.
+(rerunfilecheck)             Checksum: EECAD6082ADCAB4FD3E23337A2D78D8D;739.
  ) 
 Here is how much of TeX's memory you used:
- 16854 strings out of 474773
- 311123 string characters out of 5757724
- 1925839 words of memory out of 5000000
- 38792 multiletter control sequences out of 15000+600000
+ 16863 strings out of 474773
+ 311392 string characters out of 5757724
+ 1928839 words of memory out of 5000000
+ 38798 multiletter control sequences out of 15000+600000
  563424 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,6n,114p,542b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /Users/adamkern/Desktop/Duke/Sophmore Summer/LBPTester/bluepr
-int/print/print.pdf (2 pages).
+int/print/print.pdf (3 pages).
